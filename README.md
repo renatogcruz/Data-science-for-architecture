@@ -4,15 +4,15 @@ Repository on data analysis in Architecture, Engineering, Construction (AEC) and
 
 # Data Analysis for AEC
 
-### 1 - [Course](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) - Data Science for Construction, Architecture and Engineering (edX)
+### 1 - [Data Science for Construction, Architecture and Engineering (edX)](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Data_science_for_AEC)
 
 The building industry is exploding with data sources that impact the energy performance of the built environment and health and well-being of occupants. This course focuses on the development of data science skills for professionals specifically in the built environment sector.
 
-[[+]](https://github.com/renatogcruz/data_science_in_arch/tree/main/Data_Science_for_Construction_Architecture_and_Engineering)
+Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) 
 
-### 2 - [Disciplina](https://edisciplinas.usp.br/course/view.php?id=73896) - Captura, Análise e Visualização de Dados na Construção (2020) - USP
+### 2 - Captura, Análise e Visualização de Dados na Construção (2020) - USP
 
-[...]
+Course [link](https://edisciplinas.usp.br/course/view.php?id=73896)
 
 ### 3 - IFC analysis with IfcOpenShell
 
@@ -47,8 +47,12 @@ Training to connect and prepare databases, create graphics and customized visual
 
 3 - [Python Fundamentos para Análise de Dados](https://github.com/renatogcruz/data_science_in_arch/tree/main/python_fundamentos_para_analise_de_dados) - course 54 h
 
-[[link]](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
+Course [link](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
+
+4 - [Introdução à Data Science com Python](https://www.youtube.com/playlist?list=PLFE-LjWAAP9SfEuLXf3qrpw4szKWjlYq9) - 1/15
+
+Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
 
 # Data Science blogs
 
-[list](https://github.com/dsacademybr/data-science-blogs)
+Blogs [list](https://github.com/dsacademybr/data-science-blogs)
