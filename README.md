@@ -20,7 +20,7 @@ Material for a basic [course](https://github.com/bimfag/intro-python-bim) in pyt
 
 [Análise de IFC utilizando Python e IfcOpenShell](https://www.youtube.com/watch?v=N4foqAV7A9c) - [Carlos Dias](https://github.com/c4rlosdias)
 
-# Data Analysis for Urbanismo
+# Data Analysis for Urbanism
 
 ### 1 -  Power BI com Ênfase em Geoprocessamento
 
