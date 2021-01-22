@@ -49,7 +49,9 @@ Training to connect and prepare databases, create graphics and customized visual
 
 Course [link](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
 
-4 - [Introdução à Data Science com Python](https://www.youtube.com/playlist?list=PLFE-LjWAAP9SfEuLXf3qrpw4szKWjlYq9) - 1/15
+4 - [Introdução à Data Science com Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Introducao_ds_python)
+
+[Course](https://www.youtube.com/playlist?list=PLFE-LjWAAP9SfEuLXf3qrpw4szKWjlYq9) - 1/15
 
 Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
 
