@@ -55,7 +55,7 @@ Course [link](https://www.datascienceacademy.com.br/course?courseid=python-funda
 
 Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
 
-5 - Curso de Data Science e Machine Learning 
+5 - [Curso de Data Science e Machine Learning](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig) - 1/18 
 
  Grupo de Ciência de Dados e Aprendizado de Máquina do Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP - São Carlos)
 
