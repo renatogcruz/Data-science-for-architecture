@@ -71,4 +71,31 @@ END_SCHEMA;
 
 - Tornou-se o mecanismo central de suporte à modelagem de produtos entre um grande número de indústrias: sistemas mecânicos e elétricos, plantas de processos, construção de navios, planos de processos, mobiliário, modelos de elementos finitos, edifícios e pontes;
 
+- Usar as bibliotecas compartilhadas de Recursos (shared libraries Resources);
+
+### Interoperabilidade: IDM/MVD
+
+- Model View Definition (MVD): 
+
+Em linhas gerais, consiste num subconjunto do modelo IFC, específico para uma determinada troca de informações;
+
+As trocas de informações são especificadas em um IDM;
+
+IFC4 Reference View;
+
+Coordination planning, clash detection, background reference, quantity take-off, constructing sequence, visual presentation;
+
+IFC4 Design Transfer View;
+
+IFC2x3 Coordination View Version 2.0
+
+Add-on: quantity take-off, space boundary, 2D annotation;
+
+IFC2x3 Structural Analysis;
+
+IFC2x3 Basic FM Handover view
+
+# Industry Foundation Classes (IFC)
+
+
 
