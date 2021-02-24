@@ -1,68 +1,100 @@
-# Data Science for Architecture, Construction and Urbanism
+# IFC analysis
 
 Repository on data analysis in Architecture, Engineering, Construction (AEC) and Urbanism
 
-# Data Analysis for AEC
+# Introdução
 
-### 1 - [Data Science for Construction, Architecture and Engineering (edX)](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Data_science_for_AEC)
+### IFC – Industry Foundation Class
 
-The building industry is exploding with data sources that impact the energy performance of the built environment and health and well-being of occupants. This course focuses on the development of data science skills for professionals specifically in the built environment sector.
+- MeuProjeto.ifc: o arquivo IFC (formato de arquivo digital para exportar/importar informações de (ou o próprio) modelos BIM);
+- Modelagem da informação da construção: o esquema de dados IFC;
 
-Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) 
+### Product Data
 
-### 2 - Captura, Análise e Visualização de Dados na Construção (2020) - USP
+- No meio da década de 80, foram percebidas as vantagens em se ter um esquema para organizar os dados e outro para a linguagem que carregaria os dados;
+- Os modelos de produtos tendem a serem ricos e redundantes, para atender aos diferentes interesses dos profissionais que manipulam suas informações;
 
-Course [link](https://edisciplinas.usp.br/course/view.php?id=73896)
+### Product Data: IFC
 
-### 3 - IFC analysis with IfcOpenShell
+- Foi concebido como um “framework model” extensível;
+- Deveria prover um amplo conjunto de definições gerais de objetos e dados a partir das quais modelos mais detalhados e específicos a determinadas tarefas poderiam ser definidos;
+- Foi direcionado para abranger todas as informações da edificação, por todo o seu ciclo de vida, da análise de viabilidade e planejamento, ao projeto (incluindo análise e simulação), construção, ocupação e operação;
 
-Material for a basic [course](https://github.com/bimfag/intro-python-bim) in python for use with BIM
+### Interoperabilidade
 
-[Análise de IFC utilizando Python e IfcOpenShell](https://www.youtube.com/watch?v=N4foqAV7A9c) - [Carlos Dias](https://github.com/c4rlosdias)
+*“... é a capacidade de trocar dados entre aplicações, de modo a suavizar o fluxo de trabalho e algumas vezes facilitar sua automação”* – BIM Handbook, 2011.
 
-[Instructions to getting IFC Viewer working on Jupyter NoteBook](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
+- Tipos de troca de dados: 
+- 
+Atalhos diretos;
 
-# Data Analysis for Urbanism
+Formato proprietário de troca;
 
-### 1 -  Power BI com Ênfase em Geoprocessamento
+Formato público de modelo de dados do produto;
 
-Training to connect and prepare databases, create graphics and customized visual elements and create dynamic and interactive dashboards and reports.
+- Trocas norteadas por fluxos de trabalho:
 
-[[+]](https://github.com/renatogcruz/data_science_in_arch/tree/main/Power_bi_com_enfase_em_geoprocessamento)
+Vários grupos de profissionais, com habilidades e interesses distintos,
+usando diferentes softwares;
+
+### ISO-STEP e EXPRESS
+
+- STEP (STandard for the Exchange of Product Model Data): ISO-10303;
+- A [linguagem EXPRESS](https://en.wikipedia.org/wiki/EXPRESS_(data_modeling_language)) foi um dos principais resultados da ISO-STEP, desenvolvida por Douglas Schenck e posterior contribuição de Peter Wilson;
+
+*Exemplo simples de um modelo de dados EXPRESS simples: código e figura:*
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EXPRESS-G_diagram_for_Family_schema.svg/1280px-EXPRESS-G_diagram_for_Family_schema.svg.png)
+*Fig. Um diagrama EXPRESS-G para o esquema Família ([fonte](https://en.wikipedia.org/wiki/EXPRESS_(data_modeling_language))).*
+```
+SCHEMA Family;
+
+ENTITY Person
+   ABSTRACT SUPERTYPE OF (ONEOF (Male, Female));
+     name: STRING;
+     mother: OPTIONAL Female;
+     father: OPTIONAL Male;
+END_ENTITY;
+
+ENTITY Female
+   SUBTYPE OF (Person);
+END_ENTITY;
+
+ENTITY Male
+   SUBTYPE of (Person);
+END_ENTITY;
+
+END_SCHEMA;
+
+```
+
+- Tornou-se o mecanismo central de suporte à modelagem de produtos entre um grande número de indústrias: sistemas mecânicos e elétricos, plantas de processos, construção de navios, planos de processos, mobiliário, modelos de elementos finitos, edifícios e pontes;
+
+- Usar as bibliotecas compartilhadas de Recursos (shared libraries Resources);
+
+### Interoperabilidade: IDM/MVD
+
+- Model View Definition (MVD): 
+
+Em linhas gerais, consiste num subconjunto do modelo IFC, específico para uma determinada troca de informações;
+
+As trocas de informações são especificadas em um IDM;
+
+IFC4 Reference View;
+
+Coordination planning, clash detection, background reference, quantity take-off, constructing sequence, visual presentation;
+
+IFC4 Design Transfer View;
+
+IFC2x3 Coordination View Version 2.0
+
+Add-on: quantity take-off, space boundary, 2D annotation;
+
+IFC2x3 Structural Analysis;
+
+IFC2x3 Basic FM Handover view
+
+# Industry Foundation Classes (IFC)
 
 
-# Data Analysis Courses and Books
 
-### Books
-
-1 - Python Para Análise de Dados: Tratamento de Dados com Pandas, NumPy e IPython - [book](https://www.amazon.com.br/Python-Para-An%C3%A1lise-Dados-Tratamento/dp/8575226479/ref=asc_df_8575226479/?tag=googleshopp00-20&linkCode=df0&hvadid=379739109739&hvpos=&hvnetw=g&hvrand=16442588214836239770&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001590&hvtargid=pla-812784633558&psc=1) - [pydata-book](https://github.com/TheAlgorithms/Python/tree/master/searches)
-
-2 - Data Science do Zero: Primeiras Regras com o Python - [book](https://www.amazon.com.br/Data-Science-zero-Joel-Grus/dp/857608998X/ref=pd_bxgy_img_2/147-0972364-7540546?_encoding=UTF8&pd_rd_i=857608998X&pd_rd_r=d348e95d-eb30-4689-a8be-db2ae13093a6&pd_rd_w=BAnHB&pd_rd_wg=Ul7ei&pf_rd_p=400138fd-99e3-44de-aed2-5a7aff7ca010&pf_rd_r=E8H1W6BXPD3WQYFHYM8Z&psc=1&refRID=E8H1W6BXPD3WQYFHYM8Z)
-
-3 - [Deep Learning Book](http://www.deeplearningbook.com.br/) - book [github](https://github.com/dsacademybr/DeepLearningBook)
-
-### Courses
-
-1 - [Microsoft Power BI Para Data Science, Versão 2.0](https://www.datascienceacademy.com.br/course?courseid=microsoft-power-bi-para-data-science) - course 72 h
-
-2 - [Introdução à Ciência de Dados 2.0](https://www.datascienceacademy.com.br/course?courseid=introduo--cincia-de-dados) - course 8 h
-
-3 - [Python Fundamentos para Análise de Dados](https://github.com/renatogcruz/data_science_in_arch/tree/main/python_fundamentos_para_analise_de_dados) - course 54 h
-
-Course [link](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
-
-4 - [Introdução à Data Science com Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Introducao_ds_python)
-
-[Course](https://www.youtube.com/playlist?list=PLFE-LjWAAP9SfEuLXf3qrpw4szKWjlYq9) - 1/15
-
-Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
-
-5 - [Curso de Data Science e Machine Learning](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig)
-
- Grupo de Ciência de Dados e Aprendizado de Máquina do Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP - São Carlos)
-
-[Course](https://www.youtube.com/playlist?list=PLFE-LjWAAP9R4G0WOXWuha4P5cCvw7hGB) - 1/18 
-
-# Data Science blogs
-
-Blogs [list](https://github.com/dsacademybr/data-science-blogs)

@@ -2,19 +2,18 @@
 
 Repository on data analysis in Architecture, Engineering, Construction (AEC) and Urbanism
 
-# Data Analysis for AEC
+# 1 - Data Analysis for AEC
 
-### 1 - [Data Science for Construction, Architecture and Engineering (edX)](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Data_science_for_AEC)
+### 1.1 - [Data Science for Construction, Architecture and Engineering (edX)](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Data_science_for_AEC)
 
 The building industry is exploding with data sources that impact the energy performance of the built environment and health and well-being of occupants. This course focuses on the development of data science skills for professionals specifically in the built environment sector.
 
 Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) 
 
-### 2 - Captura, Análise e Visualização de Dados na Construção (2020) - USP
 
-Course [link](https://edisciplinas.usp.br/course/view.php?id=73896)
+### 2 - [IFC analysis](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis) 
 
-### 3 - IFC analysis with IfcOpenShell
+#### 2.1 IFC analysis with IfcOpenShell
 
 Material for a basic [course](https://github.com/bimfag/intro-python-bim) in python for use with BIM
 
@@ -22,16 +21,20 @@ Material for a basic [course](https://github.com/bimfag/intro-python-bim) in pyt
 
 [Instructions to getting IFC Viewer working on Jupyter NoteBook](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
 
+#### 2.2 [Captura, Análise e Visualização de Dados na Construção](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/Captura_Analise_e_Visualizacao_de_Dados_na_Construcao)
+
+Course [link](https://edisciplinas.usp.br/course/view.php?id=73896) - USP
+
 # Data Analysis for Urbanism
 
-### 1 -  Power BI com Ênfase em Geoprocessamento
+### 3 -  Power BI com Ênfase em Geoprocessamento
 
 Training to connect and prepare databases, create graphics and customized visual elements and create dynamic and interactive dashboards and reports.
 
 [[+]](https://github.com/renatogcruz/data_science_in_arch/tree/main/Power_bi_com_enfase_em_geoprocessamento)
 
 
-# Data Analysis Courses and Books
+# 4 - Data Analysis Courses and Books
 
 ### Books
 
