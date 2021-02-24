@@ -96,5 +96,7 @@ IFC2x3 Basic FM Handover view
 
 # Industry Foundation Classes (IFC)
 
+https://biblus.accasoftware.com/en/ifc-file-structure-the-ifcobjectdefinition/
 
+https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema/ifcproductextension/lexical/ifcbuildingelement.htm
 
