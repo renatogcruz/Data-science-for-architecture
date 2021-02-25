@@ -18,9 +18,8 @@ Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architect
 
 #### 2.2 [Captura, Análise e Visualização de Dados na Construção](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/Captura_Analise_e_Visualizacao_de_Dados_na_Construcao)
 
-Course [link](https://edisciplinas.usp.br/course/view.php?id=73896) - USP
 
-# 3Data Analysis for Urbanism
+# 3 - Data Analysis for Urbanism
 
 ### 3.1 -  Power BI com Ênfase em Geoprocessamento
 
