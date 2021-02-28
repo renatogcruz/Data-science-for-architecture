@@ -1,25 +1,21 @@
-# Abrindo arquivo IFC utilizando Python, IfcOpenShell e Joypter Notebook
+# Opening IFC file using Python, IfcOpenShell and Jupyter Notebook
 
-#### Primeiro passo
-
-Importe a biblioteca ifcopenshell
+1 - Import ifcopenshell library
 
 ```
 import ifcopenshell
 import ifcopenshell.geom
 ```
 
-#### Segundo passo:
-
-Abra o abrir o arquivo IFC.
-
-Para que tudo funcione corretamente, precisamos de um arquivo IFC válido. Mantenha todos os arquivos no mesmo diretório.
+2 - Open the IFC file
 
 ```
-file = ifcopenshell.open("Nome_do_aquivo.ifc")
+file = ifcopenshell.open("file_name.ifc")
 ```
 
-#### Terceiro passo:
+For everything to work properly, we need a valid IFC file. Keep all files in the same directory.
+
+3 - Prepare the settings
 
 ```
 settings = ifcopenshell.geom.settings()
@@ -28,9 +24,7 @@ geometry = dict((file[item.data.id], (item.geometry, item.styles))
                 for item in ifcopenshell.geom.iterator(settings, file))
 ```
 
-#### Quarto passo:
-
-Importe o ifc_viewwer
+4 - Import ifc_viewer
 
 ```
 from ifc_viewer import ifc_viewer
@@ -44,6 +38,6 @@ for product, (shape, styles) in geometry.items():
 viewer.Display()
 ```
 
-[Baixe os arquivos](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais) e faça você mesmo.
+Download the files above and do it yourself.
 
-Material de referência [AQUI](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
+Reference material [here](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
