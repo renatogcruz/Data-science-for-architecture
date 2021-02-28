@@ -1,6 +1,14 @@
 # IFC analysis with IfcOpenShell
 
-# Instruções para instalação do IfcOpenShell para trabalhar com arquivos IFC utilizando Python e Jupyter NoteBook 
+IfcOpenShell é uma biblioteca de software de código aberto ( LGPL ) para trabalhar com o formato de arquivo Industry Foundation Classes ( IFC ).
+
+Para mais informações, veja:
+
+- http://ifcopenshell.org
+
+- http://academy.ifcopenshell.org
+
+## Instruções para instalação do IfcOpenShell para trabalhar com arquivos IFC utilizando Python e Jupyter NoteBook 
 
 Sistema operacional Windows
 
@@ -14,9 +22,11 @@ Digite a seguinte linha no terminal e pressione Enter.
 conda install -c conda-forge -c oce -c dlr-sc -c ifcopenshell ifcopenshell
 ```
 
-# Instruções iniciais para abrir um arquivo IFC utlizando Python, IfcOpenShell e Jupyter NoteBook
+Aguarde a instalação termina.
 
-[Visualizar o arquivo IFC no Jupyter Notebook usando Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
+## Instruções iniciais para abrir um arquivo IFC utlizando Python, IfcOpenShell e Jupyter NoteBook
+
+[Visualizar arquivo IFC no Jupyter Notebook usando Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
 
 ## materiais de referências
 
