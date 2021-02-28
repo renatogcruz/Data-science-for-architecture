@@ -1,34 +1,36 @@
 # IFC analysis with IfcOpenShell
 
-IfcOpenShell é uma biblioteca de software de código aberto ( LGPL ) para trabalhar com o formato de arquivo Industry Foundation Classes ( IFC ).
+IfcOpenShell is an open source software library for working with the Industry Foundation Classes (IFC) file format. Currently supported IFC releases are IFC2x3 TC1 and IFC4 Add2 TC1.
 
-Para mais informações, veja:
+For more information, see
 
 - http://ifcopenshell.org
 
 - http://academy.ifcopenshell.org
 
-## Instruções para instalação do IfcOpenShell para trabalhar com arquivos IFC utilizando Python e Jupyter NoteBook 
+## Instructions for installing IfcOpenShell to work with IFC files using Python and Jupyter NoteBook 
 
-Sistema operacional Windows
+Windows OS
 
-1 - Instale o Anaconda;
+1 - Install [Anaconda](https://docs.anaconda.com/anaconda/install/)
 
-2 - Acesse o *Terminal* do Anaconda.
+2 - Access Anaconda command prompt.
 
-Digite a seguinte linha no terminal e pressione Enter.
+2.1 - Click Start, search, or select Anaconda Prompt from the menu
+
+2.2 - Type the following line in the terminal and press Enter.
 
 ```
 conda install -c conda-forge -c oce -c dlr-sc -c ifcopenshell ifcopenshell
 ```
 
-Aguarde a instalação termina.
+Wait for the installation to finish.
 
-## Instruções iniciais para abrir um arquivo IFC utlizando Python, IfcOpenShell e Jupyter NoteBook
+## Initial instructions for opening an IFC file using Python, IfcOpenShell and Jupyter NoteBook
 
-[Visualizar arquivo IFC no Jupyter Notebook usando Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
+[View IFC file on Jupyter Notebook using Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
 
-## materiais de referências
+## Reference materials
 
 Material for a basic [course](https://github.com/bimfag/intro-python-bim) in python for use with BIM
 
