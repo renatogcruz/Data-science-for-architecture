@@ -8,8 +8,14 @@ Disponível no canal do [Youtube](https://www.youtube.com/watch?v=dd3RmNfThF8&li
 
 Aula 1 - Introdução e k-Nearest Neighbors
 
-Aula 2 - 
+[Exercício](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_01_exercicios).
 
-Aula 3 - 
+Aula 2 - Clustering com k-means e DBSCAN
+
+Aula 3 - Análise Exploratória de Dados
+
+Aula 4 - 
+
+Aula 5 -
 
 [...]
