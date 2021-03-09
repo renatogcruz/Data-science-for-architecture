@@ -4,16 +4,16 @@ This is an introduction to the Python programming language for Programming with 
 
 This tutorial will walk through:
 
-2 Hello jupyter, world and you
-3 Variables and types
-4 Basic String formatting
-5 Collection types (Arrays))
-6 Conditions and If statements
-7 While Loops
-8 For Loops
-9 Functions
-10 Classes and Objects
-11 Modules and Packages
+- Hello jupyter, world and you
+- Variables and types
+- Basic String formatting
+- Collection types (Arrays))
+- Conditions and If statements
+- While Loops
+- For Loops
+- Functions
+- Classes and Objects
+- Modules and Packages
 
 in aplication openBIM programming.
 
