@@ -1,43 +1,25 @@
-# Opening IFC file using Python, IfcOpenShell and Jupyter Notebook
+# Introduction to Python 3 in jupyter notebook
 
-1 - Import ifcopenshell library
+This is an introduction to the Python programming language for Programming with openBIM.
 
-```
-import ifcopenshell
-import ifcopenshell.geom
-```
+This tutorial will walk through:
 
-2 - Open the IFC file
+- Hello jupyter, world and you
+- Variables and types
+- Basic String formatting
+- Collection types (Arrays))
+- Conditions and If statements
+- While Loops
+- For Loops
+- Functions
+- Classes and Objects
+- Modules and Packages
 
-```
-file = ifcopenshell.open("file_name.ifc")
-```
+in aplication openBIM programming.
 
-For everything to work properly, we need a valid IFC file. Keep all files in the same directory.
+At the end of this notebook you will learn how to visualize objects in a BIM model. Like the windows of Grethes hus
 
-3 - Prepare the settings
 
-```
-settings = ifcopenshell.geom.settings()
-settings.set(settings.USE_PYTHON_OPENCASCADE, True)
-geometry = dict((file[item.data.id], (item.geometry, item.styles)) 
-                for item in ifcopenshell.geom.iterator(settings, file))
-```
+**Download the files above and do it yourself.**
 
-4 - Import ifc_viewer
-
-```
-from ifc_viewer import ifc_viewer
-        
-viewer = ifc_viewer()
-
-for product, (shape, styles) in geometry.items():
-    # if not product.is_a("IfcWall"): continue
-    viewer.DisplayShape(product, shape, styles)
-    
-viewer.Display()
-```
-
-Download the files above and do it yourself.
-
-Reference material [here](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
+Reference by BIMFag
