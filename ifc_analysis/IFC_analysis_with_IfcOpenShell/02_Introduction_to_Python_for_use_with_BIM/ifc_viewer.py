@@ -8,17 +8,16 @@ class ifc_viewer(Renderer):
 
     @staticmethod
     def subshapes(shp):
-        import OCC.Core.TopoDS                    # Correcting OCC.TopoDS for OCC.Core.TopoDS
-        it = OCC.Core.TopoDS.TopoDS_Iterator(shp) # Correcting OCC.TopoDS for OCC.Core.TopoDS
+        import OCC.Core.TopoDS
+        it = OCC.Core.TopoDS.TopoDS_Iterator(shp)
         while it.More():
             yield it.Value()
             it.Next()
 
     def DisplayShape(self, product, shp, color):
         for shp, sty in zip(self.subshapes(shp), color):
-            Renderer.DisplayShape(self, shp, shape_color=sty[0:3], show=False, render_edges=True)
+            Renderer.DisplayShape(self, shp, shape_color=sty[0:3], render_edges=True)
             self.products.append(product)
 
     def onclick(self, item):
         self.html.value = "Selected %r" % self.products[int(item.name)]
-
