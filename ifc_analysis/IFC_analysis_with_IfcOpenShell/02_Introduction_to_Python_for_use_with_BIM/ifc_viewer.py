@@ -8,8 +8,8 @@ class ifc_viewer(Renderer):
 
     @staticmethod
     def subshapes(shp):
-        import OCC.TopoDS
-        it = OCC.TopoDS.TopoDS_Iterator(shp)
+        import OCC.Core.TopoDS                    # Correcting OCC.TopoDS for OCC.Core.TopoDS
+        it = OCC.Core.TopoDS.TopoDS_Iterator(shp) # Correcting OCC.TopoDS for OCC.Core.TopoDS
         while it.More():
             yield it.Value()
             it.Next()
