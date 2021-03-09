@@ -24,11 +24,23 @@ Windows OS
 conda install -c conda-forge -c oce -c dlr-sc -c ifcopenshell ifcopenshell
 ```
 
+```
+conda install -c dlr-sc pythonocc-core
+```
+
+```
+conda install -c conda-forge pythreejs
+```
+
 Wait for the installation to finish.
 
-## Initial instructions for opening an IFC file using Python, IfcOpenShell and Jupyter NoteBook
+## What do we find here?
 
-[View IFC file on Jupyter Notebook using Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
+Initial instructions for opening an IFC file using Python, IfcOpenShell and Jupyter NoteBook
+
+1 - [Initial instructions - View IFC file on Jupyter Notebook using Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/Instrucoes_iniciais)
+
+2 - [Introduction_to_Python_for_use_with_BIM](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/02_Introduction_to_Python_for_use_with_BIM)
 
 ## Reference materials
 
