@@ -6,11 +6,9 @@ Disponível no canal do [Youtube](https://www.youtube.com/watch?v=dd3RmNfThF8&li
 
 ## Conteúdo	
 
-Aula 1 - Introdução e k-Nearest Neighbors
+Aula 1 - [Introdução e k-Nearest Neighbors](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_01_exercicios).
 
-[Exercício](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_01_exercicios).
-
-Aula 2 - Clustering com k-means e DBSCAN
+Aula 2 - [Clustering com k-means e DBSCAN](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/aula_02)
 
 Aula 3 - Análise Exploratória de Dados
 
