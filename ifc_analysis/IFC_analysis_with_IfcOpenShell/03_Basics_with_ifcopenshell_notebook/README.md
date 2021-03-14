@@ -1,25 +1,29 @@
-# Introduction to Python 3 in jupyter notebook
+# Basics with ifcopenshell notebook
 
-This is an introduction to the Python programming language for Programming with openBIM.
+Intro to some key functions in ifcopenshell and IFC documentation
 
-This tutorial will walk through:
+Ifcopenshell is a library that you could use to parse and handle IFC model data. It works in both C++ and python. And for both Ifc2x3 and IFC4. For a collection of information on IFC please refer to the buildingSMART IFC pages.
 
-- Hello jupyter, world and you
-- Variables and types
-- Basic String formatting
-- Collection types (Arrays))
-- Conditions and If statements
-- While Loops
-- For Loops
-- Functions
-- Classes and Objects
-- Modules and Packages
+It might also be usefull to read up on the Ifc2x3 Implementation Guide here
 
-in aplication openBIM programming.
+The ifcopenshell academy and pythonocc tutorials are good resources as well.
 
-At the end of this notebook you will learn how to visualize objects in a BIM model. Like the windows of Grethes hus
+One particular supportive tutorial for this notebook is the Using The Parsing Functionality of Ifcopenshell Interactively Tutorial.
+
+The topics for this notebook is:
+
+- Opening an ifc file and create a file object
+- The file.by_type() function in ifcopenshell
+- The is_a() function in ifcopenshell
+- The "." operator function in python and ifcopenshell
+- Combining by_type, is_a and the "." operator to extract property set information
+- After this you could try walking through the 02_analyze and 01_visualize notebooks.
 
 
 **Download the files above and do it yourself.**
 
 Reference by BIMFag
+
+
+
+
