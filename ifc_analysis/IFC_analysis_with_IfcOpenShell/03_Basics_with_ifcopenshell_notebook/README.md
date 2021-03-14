@@ -4,10 +4,6 @@ Intro to some key functions in ifcopenshell and IFC documentation
 
 Ifcopenshell is a library that you could use to parse and handle IFC model data. It works in both C++ and python. And for both Ifc2x3 and IFC4. For a collection of information on IFC please refer to the buildingSMART IFC pages.
 
-It might also be usefull to read up on the Ifc2x3 Implementation Guide here
-
-The ifcopenshell academy and pythonocc tutorials are good resources as well.
-
 One particular supportive tutorial for this notebook is the Using The Parsing Functionality of Ifcopenshell Interactively Tutorial.
 
 The topics for this notebook is:
@@ -17,13 +13,7 @@ The topics for this notebook is:
 - The is_a() function in ifcopenshell
 - The "." operator function in python and ifcopenshell
 - Combining by_type, is_a and the "." operator to extract property set information
-- After this you could try walking through the 02_analyze and 01_visualize notebooks.
-
 
 **Download the files above and do it yourself.**
 
 Reference by BIMFag
-
-
-
-
