@@ -133,6 +133,44 @@ Em contraste, as classes não enraizadas não têm a capacidade de atribuir um G
 
 As classes são frequentemente descritas como o que herdam. Por exemplo, classes com raiz podem ser descritas como classes que herdam de IfcRoot, ou subclasses de IfcRoot. Se uma classe herda de outra classe ou é uma subclasse de outra classe, ela herda as mesmas habilidades dessa classe, como a habilidade de ter certos atributos, propriedades ou relacionamentos atribuídos a ela. As subclasses não herdam realmente os valores dos atributos em si, mas apenas a capacidade de ter esse atributo.
 
+### Subclasses IfcRoot
+
+As classes enraizadas podem ser subdivididas em três tipos de classes.
+
+|Classe IFC | Descrição|
+|:--------:|:----------:|
+|IfcObjectDefinition | Descrevem "objetos" ou "coisas" que se relacionam com a indústria de AEC. Isso inclui paredes, pessoas e tarefas. Você pode considerá-los os "substantivos" na IFC.|
+|IfcPropertyDefinition | descrevem propriedades de "objetos" e "coisas". Eles próprios não são um objeto, mas sim uma propriedade ou quantidade, como classificação de incêndio, uso de energia ou volume. |
+|IfcRelationship |descrevem relacionamentos entre os próprios "objetos", entre propriedades ou entre objetos e propriedades. Os relacionamentos podem ser objetos que contêm outros objetos, se conectam a objetos, têm entradas ou saídas do sistema ou são atribuídos a uma propriedade ou quantidade. |
+
+
+### Subclasses IfcObjectDefinition
+
+Embora existam muitas subclasses de IFC, existem apenas algumas relevantes para diferentes autores de BIM e é útil fornecer um resumo delas. Embaixo dessas poucas subclasses que entram em mais detalhes, mas saber que essas categorizações amplas existem ajuda a compreender os dados da IFC. A tabela a seguir não é completa.
+
+| Classes IFC         |   Descrição          |
+|:---------:|:----------:|
+|  IfcContext        |    Esta categoria especial contém o ponto de partida dos dados IFC, descrevendo um projeto ou biblioteca. Existem apenas duas subclasses: IfcProjecte IfcProjectLibrary         |
+|  IfcElement        |  Eles contêm elementos físicos construídos que encontramos todos os dias, como lajes, colunas, vigas, móveis, canos, cabos, dutos e assim por diante. Exemplos de subclasses IfcElementincluem IfcColumn, IfcBeame IfcFurniture. Eles podem ter geometria associada a eles.           |
+| IfcSpatialElement         | Descrevem conceitos espaciais, como locais, edifícios, pontes, andares e espaços. Essas IfcSpatialElementclasses podem conter IfcElementelementos dentro delas, como uma laje dentro de um andar de construção. Exemplos de subclasses IfcSpatialElementincluem IfcSite, IfcBuildinge IfcSpace.            |
+| IfcElementType         | Descrevem os tipos de construção. Um tipo de construção pode ser atribuído a um IfcElement, assim como um tipo particular IfcWallpode ter um tipo particular de construção de 2 camadas de placa de gesso em uma estrutura de metal. Exemplos de subclasses IfcElementTypeincluem IfcWallType, IfcDoorTypee IfcWindowType.            |
+|IfcStructuralActivity, IfcStructuralItem          | Eles são úteis para análise estrutural. Eles contêm dados para descrever um modelo analítico, incluindo membros, nós, conexões, cargas e forças, bem como os resultados dos cálculos. Exemplo subclasses incluem IfcStructuralCurveMember, IfcStructuralPointConnectione IfcStructuralPointReaction.            |
+| IfcActor, IfcControl, IfcProcess,IfcResource         |  Eles são úteis para agendar informações, descrevendo responsabilidades, tarefas, recursos e cronogramas para o sequenciamento da construção ou planejamento do projeto. Exemplo subclasses incluem IfcTask, IfcConstructionMaterialResourcee IfcWorkSchedule.           |
+
+### Subclasses IfcPropertyDefinition
+
+A seguinte tabela descreve subclasses comuns usadas para descrever propriedades, que podem ser posteriormente atribuídas a objetos.
+
+
+
+### Subclasses IfcRelationship
+
+
+### Um resumo dos elementos não enraizados
+
+
+https://wiki.osarch.org/index.php?title=IFC_classes
+
 
 # Industry Foundation Classes (IFC)
 
