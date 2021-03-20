@@ -1,18 +1,18 @@
-# Basics with ifcopenshell notebook
+# Updating the names of rooms in a model
 
-Intro to some key functions in ifcopenshell and IFC documentation
+There are many situations one would like to update information in an IFC file. One case might be the need to update information on rooms in a model.
 
-Ifcopenshell is a library that you could use to parse and handle IFC model data. It works in both C++ and python. And for both Ifc2x3 and IFC4. For a collection of information on IFC please refer to the buildingSMART IFC pages.
+The Rooms of a ifc model is of type IfcSpace and there are many posible ways of adding information to it both as direct attributes and in predefined or otherwise defined property sets.
 
-One particular supportive tutorial for this notebook is the Using The Parsing Functionality of Ifcopenshell Interactively Tutorial.
+As IfcSpace inherits from IfcRoot it has direct attributes of Name, Description, GlobalID and as it is aslo a IfcSpatialStructureElement it also has the attribute of LongName.
 
-The topics for this notebook is:
+In this case we are interested in getting the Name, LongName, and GlobalID of all rooms in the model in an editable format to check and update Room Names.
 
-- Opening an ifc file and create a file object
-- The file.by_type() function in ifcopenshell
-- The is_a() function in ifcopenshell
-- The "." operator function in python and ifcopenshell
-- Combining by_type, is_a and the "." operator to extract property set information
+So, we'll walk through
+
+- How to get an ifc file, query its room and direct attributes of Name, LongName and GlobalID
+- Write that to a csv file to handle in a 3rd party editor like eg. Google Spreadsheet, or Excel.
+- Next we show how to read in this information from a csv file (separated by ",") and update the IFC model.
 
 **Download the files above and do it yourself.**
 
