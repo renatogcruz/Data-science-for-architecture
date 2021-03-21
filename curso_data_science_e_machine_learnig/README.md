@@ -10,7 +10,7 @@ Aula 1 - [Introdução e k-Nearest Neighbors](https://github.com/renatogcruz/Dat
 
 Aula 2 - [Clustering com k-means e DBSCAN](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/aula_02)
 
-Aula 3 - Análise Exploratória de Dados
+Aula 3 - [Análise Exploratória de Dados](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_03)
 
 Aula 4 - 
 
