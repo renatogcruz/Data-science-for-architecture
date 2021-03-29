@@ -12,8 +12,19 @@ Aula 2 - [Clustering com k-means e DBSCAN](https://github.com/renatogcruz/Data-s
 
 Aula 3 - [Análise Exploratória de Dados](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_03)
 
-Aula 4 - 
+Aula 4 - [Naive Bayes](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_04)
 
-Aula 5 -
+Aula 5 - [Técnicas de Data Science](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_05)
+
+Aula 6 - [Árvores de Decisão](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_06)
+
+Aula 7 - [Introdução ao Kaggle](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/curso_data_science_e_machine_learnig/Aula_07)
+
+Aula 8 - 
+
+Aula 9 - 
+
+
+Aula 10 -
 
 [...]
