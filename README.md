@@ -10,6 +10,13 @@ The building industry is exploding with data sources that impact the energy perf
 
 Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) 
 
+# Costs and Budgets
+
+1 - [Predict cost of civil construction São Paulo/Brazil](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/custos_e_orcamentos/previsao_CUB)
+
+Data - [From 2007 to 2021](https://sindusconsp.com.br/sdm_downloads/cub-serie-historica/)
+
+Type of construction R8-N SINDUSCON-SP
 
 # [IFC analysis](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis) 
 
