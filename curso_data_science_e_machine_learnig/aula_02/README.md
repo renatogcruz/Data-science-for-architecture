@@ -1,5 +1,11 @@
 # Clustering com k-means e DBSCAN
 
+Curso de Data Science e Machine Learning do grupo de Ciência de Dados e Aprendizado de Máquina localizado no Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP), em São Carlos
+
+Disponível no canal do [Youtube](https://www.youtube.com/watch?v=o6txmOn2IUk&list=PLFE-LjWAAP9R4G0WOXWuha4P5cCvw7hGB&index=2).
+
+## Clustering
+
 O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospeção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança. O critério de semelhança faz parte da definição do problema e, dependendo, do algoritmo. A cada conjunto de dados resultante do processo dá-se o nome de grupo, aglomerado ou agrupamento (cluster). 
 
 [Fonte](https://pt.wikipedia.org/wiki/Clustering)
