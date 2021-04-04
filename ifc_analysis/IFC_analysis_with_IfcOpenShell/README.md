@@ -48,6 +48,8 @@ Initial instructions for opening an IFC file using Python, IfcOpenShell and Jupy
 
 5 - [Get list of room names and descriptions](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/05_Get_list_of_room_names_and_descriptions)
 
+6 - [Redefining an IfcBuildingElementProxy to IfcWall](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell/06_Redefining_an_IfcBuildingElementProxy_to_IfcWall)
+
 ## Reference materials
 
 Material for a basic [course](https://github.com/bimfag/intro-python-bim) in python for use with BIM
