@@ -1,18 +1,21 @@
-# Updating the names of rooms in a model
+# How to change from a IfcBuildingElementProxy to IfcWall
 
-There are many situations one would like to update information in an IFC file. One case might be the need to update information on rooms in a model.
+Here is some code that changes all elements of type IfcBuildingElementProxy, to an element of IfcWall.
 
-The Rooms of a ifc model is of type IfcSpace and there are many posible ways of adding information to it both as direct attributes and in predefined or otherwise defined property sets.
+First we create a helper function to add an object to the list of objects that a relationship object refer to. This is used to add the new object when we remove the old i.e. add the inverse attributes to the new object.
 
-As IfcSpace inherits from IfcRoot it has direct attributes of Name, Description, GlobalID and as it is aslo a IfcSpatialStructureElement it also has the attribute of LongName.
+Second we create a function that takes in a path to a file, and a path to a new file, that will change all elements of type IfcWall to IfcProduct.
 
-In this case we are interested in getting the Name, LongName, and GlobalID of all rooms in the model in an editable format to check and update Room Names.
+An underlying assumption in this script is that the particular IfcBuildingElementProxy elements are actually walls, only exported with a more abstract entity.
 
-So, we'll walk through
+- Getting all elements of IfcBuildingElementProxy from the file
+- Iterating through all elements one by one and storing a reference to all direct and iverse attributes
+- Creating a new instance of IfcWall with the direct attributes of the IfcBuildingElementProxy object.
+- Removing the old IfcBuildingElementProxy object
+- Iterating through all inverse attributes (holding a relational object) and adding the new IfcWall to the relational object.
+- Store the new file.
 
-- How to get an ifc file, query its room and direct attributes of Name, LongName and GlobalID
-- Write that to a csv file to handle in a 3rd party editor like eg. Google Spreadsheet, or Excel.
-- Next we show how to read in this information from a csv file (separated by ",") and update the IFC model.
+A reference to do this type of script is the [creating a simple wall with property set and quantity set on the ifcopenshell academy](http://academy.ifcopenshell.org/creating-a-simple-wall-with-property-set-and-quantity-information/)
 
 **Download the files above and do it yourself.**
 
