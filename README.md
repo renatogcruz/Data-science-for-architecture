@@ -63,7 +63,7 @@ Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
 
 3 - [Deep Learning Book](http://www.deeplearningbook.com.br/) - book [github](https://github.com/dsacademybr/DeepLearningBook)
 
-4 - [Projetos de Ciência de Dados com Python]()
+4 - [Projetos de Ciência de Dados com Python](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/projetos_de_ciencias_de_dados_com_python)
 
 # others
 
