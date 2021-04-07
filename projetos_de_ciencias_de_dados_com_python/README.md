@@ -1,37 +1,25 @@
-# Introdução à Data Science com Python
+# Projetos de Ciência de Dados com Python
 
-Curso de Introdução à Data Science com Python do grupo de [Ciência de Dados e Aprendizado de Máquina](http://data.icmc.usp.br/) localizado no Instituto de Ciências Matemáticas e de Computação (ICMC) da Universidade de São Paulo (USP), em São Carlos
+Abordagem de estudo de caso para criação de projetos de ciências de dados bem-sucedidos usando Python, pandas e scikit-learn.
 
-Disponível no canal do [Youtube](https://www.youtube.com/playlist?list=PLFE-LjWAAP9SfEuLXf3qrpw4szKWjlYq9).
+Autor: [Stephen Klosterman](https://github.com/klostest)
 
-## Conteúdo	
+Editora: Packt> novatec
 
-Introdução ao curso e fundamentos teóricos de ciência de dados	
+Livro à venda [aqui](https://novatec.com.br/livros/projetos-ciencia-de-dados-com-python/).
 
-Explicação de Jupyter Notebooks e Google Colab
+## Recursos adicionais
 
-Python I	- Variáveis, operações, listas e tuplas	
+[Code bundle](https://github.com/TrainingByPackt/Data-Science-Projects-with-Python)	
 
-Python II	- Estruturas condicionais, repetição, dicionários, funções e bibliotecas
+Outros [code bundles](https://github.com/TrainingByPackt)
 
-NumPy I	- Entendendo e gerando np.arrays	
+## O que têm aqui
 
-NumPy II	- Operações matemáticas e funções em arrays
-
-NumPy III	- Indexação de arrays e teste de velocidade
-
-Pandas I	- Introdução ao conceito de DataFrame	
-
-Pandas II	- Indexação de dados presentes em um DataFrame
-
-Pandas III	- Manipulação e transformação dos dados de um DataFrame
-
-Matplotlib	- Geração e personalização de gráficos em Python		
-
-Machine Learning	- Introdução teórica aos conceitos fundamentais do ML	
-
-kNN	Explicação do algoritmo k-Nearest Neighbors	
-
-Scikit-learn I	- Encoding e normalização de dados para tarefa de aprendizado	
-
-Scikit-learn II	- Treinamento de um classificador kNN e avaliação do mesmo
+- Carregar dados em um notebook Jupyter executando Python;
+- Matplotlib para criar visualizações de dados
+- Modelo usando o scikit-learn
+- Laço e regressão de crista para regularizar o modelo
+- Modelo de floresta aleatório para comparar o desempenho com regressão logística
+- Recursos visuais usando a saída do bloco de notas Jupyter
+- Validação cruzada k-fold para selecionar a melhor combinação de hiperparâmetros
