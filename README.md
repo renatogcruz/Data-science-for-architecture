@@ -55,6 +55,8 @@ Course [Repository](https://github.com/icmc-data/Intro-Data-Science-Youtube)
 
 [Course](https://www.youtube.com/playlist?list=PLFE-LjWAAP9R4G0WOXWuha4P5cCvw7hGB) - 1/18 
 
+6 - [Curso de Python para DS](https://www.youtube.com/watch?v=1xXK_z9M6yk&list=PLZlkyCIi8bMprZgBsFopRQMG_Kj1IA1WG)
+
 # Books
 
 1 - Python Para Análise de Dados: Tratamento de Dados com Pandas, NumPy e IPython - [book](https://www.amazon.com.br/Python-Para-An%C3%A1lise-Dados-Tratamento/dp/8575226479/ref=asc_df_8575226479/?tag=googleshopp00-20&linkCode=df0&hvadid=379739109739&hvpos=&hvnetw=g&hvrand=16442588214836239770&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001590&hvtargid=pla-812784633558&psc=1) - [pydata-book](https://github.com/TheAlgorithms/Python/tree/master/searches)
