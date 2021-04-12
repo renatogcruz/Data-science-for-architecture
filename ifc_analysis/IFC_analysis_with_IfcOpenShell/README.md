@@ -54,7 +54,9 @@ Initial instructions for opening an IFC file using Python, IfcOpenShell and Jupy
 
 Material for a basic [course](https://github.com/bimfag/intro-python-bim) in python for use with BIM
 
-[Análise de IFC utilizando Python e IfcOpenShell](https://www.youtube.com/watch?v=fKIuYu0-hVk) - [Carlos Dias](https://github.com/c4rlosdias)
+[Análise de IFC utilizando Python e IfcOpenShell](https://www.youtube.com/watch?v=fKIuYu0-hVk)
+
+[BIM Notebooks](https://github.com/c4rlosdias/BIM-Notebooks)
 
 [Instructions to getting IFC Viewer working on Jupyter NoteBook](https://gist.github.com/feromes/b9e7935b9313e7eb7e197d267168ebdb)
 
