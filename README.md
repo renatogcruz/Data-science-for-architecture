@@ -31,3 +31,7 @@ Type of construction R8-N SINDUSCON-SP
 1 - [Power BI com Ênfase em Geoprocessamento](https://github.com/renatogcruz/data_science_in_arch/tree/main/Power_bi_com_enfase_em_geoprocessamento)
 
 Training to connect and prepare databases, create graphics and customized visual elements and create dynamic and interactive dashboards and reports.
+
+# House Rocket
+
+Maximizando a receita da empre [House Rocket](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/House_Rocket), uma plataforma digital que tem como modelo de negócio, a compra e a venda de imóveis usando tecnologia.
