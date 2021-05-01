@@ -1,33 +1,48 @@
-# Data Science for Architecture, Construction and Urbanism
+# Maximizando a receita da empresa House Rocket Company
 
-Repository on data analysis in Architecture, Engineering, Construction (AEC) and Urbanism
+## Contexto do Desafio
 
-# Data Analysis for AEC
+A House Rocket é uma plataforma digital que tem como modelo de negócio, a compra e a venda de imóveis usando tecnologia.
 
-1 - [Data Science for Construction, Architecture and Engineering (edX)](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/Data_science_for_AEC)
+Precisamos ajudar a empresa para ajudar a encontrar as melhores oportunidades de negócio no mercado de imóveis. 
 
-The building industry is exploding with data sources that impact the energy performance of the built environment and health and well-being of occupants. This course focuses on the development of data science skills for professionals specifically in the built environment sector.
+O CEO da House Rocket gostaria de maximizar a receita da empresa encontrando boas oportunidades de negócio. Sua principal estratégia é comprar boas casas em ótimas localizações com preços baixos e depois revendê-las posteriormente à preços mais altos. 
 
-Course [link](https://www.edx.org/course/Data-Science-for-Construction-Architecture-and-Engineering) 
+Quanto maior a diferença entre a compra e a venda, maior o lucro da empresa e portanto maior sua receita.
 
-# Costs and Budgets
+Entretanto, as casas possuem muitos atributos que as tornam mais ou menos atrativas aos compradores e vendedores e a localização e o período do ano também podem influenciar os preços.
 
-1 - [Predict cost of civil construction São Paulo/Brazil](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/custos_e_orcamentos/previsao_CUB)
+Portanto, nosso trabalho como Data Scientist é responder as seguinte perguntas:
 
-Data - [From 2007 to 2021](https://sindusconsp.com.br/sdm_downloads/cub-serie-historica/)
+* Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
+* Uma vez a casa em posse da empresa, qual o melhor momento para vendê-las e qual seria o preço da venda?
+* A House Rocket deveria fazer uma reforma para aumentar o preço da venda? Quais seriam as sugestões de mudanças? Qual o incremento no preço dado por cada opção de reforma?
 
-Type of construction R8-N SINDUSCON-SP
+## Os Dados do Desafio.
 
-# [IFC analysis](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis) 
+O conjunto de dados que representam o contexto está disponível na plataforma do Kaggle. Esse é o [link](https://www.kaggle.com/harlfoxem/housesalesprediction).
 
-1 - [IFC analysis with IfcOpenShell](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/IFC_analysis_with_IfcOpenShell)
+Esse conjunto de dados contém casas vendidas entre Maio de 2014 e Maio de 2015. Você usará esses dados para desenvolver sua solução.
 
+## Como solucionar esse desafio?
 
-2 - [Captura, Análise e Visualização de Dados na Construção](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/ifc_analysis/Captura_Analise_e_Visualizacao_de_Dados_na_Construcao)
+Roteiro Sugerido para a Resolução:
 
+* Identifique a causa raíz.
+* Porque o CEO fez essas perguntas? Se você fosse ele, porque você perguntaria isso? Quer aumentar receita? A empresa está indo bem? Anote essas causas.
+* Colete os dados ( Os dados estão no link acima )
+* Aplique uma limpeza nos dados.
+* Entenda as variáveis disponíveis, possíveis valores faltantes, faça uma estatística descritiva para entender as características dos dados.
+* Levante Hipóteses sobre o Comportamento do Negócio.
+* Casas com garagens são mais caras? Porque?
+* Casas com muitos quartos são mais caras? Porque? A partir de quantos quartos o preço aumenta? Qual o incremento de preço por cada quarto adicionado?
+* As casas mais caras estão no centro? Qual a região? Existe alguma coisa na região que tem correlação com valor de venda da casa? Shoppings? Montanhas? Pessoas Famosas?
+* Faça uma ótima Análise Exploratória de Dados.
+* Quais hipóteses são falsas e quais são verdadeiras?
+* Quais as correlações entre as variáveis e a variável resposta?
+* Escreve os Insights que você encontrou
+* Escreve possíveis soluções para o problema do CEO.
+* O Ferramental da Solução
+* Use as ferramentas que você se sente mais confortável para desenvolver a solução. Você pode usar tanto Python quanto R e qualquer IDE de sua preferência Juypter Notebook, Spyder, VS Code, entre outros.
 
-# Data Analysis for Urbanism
-
-1 - [Power BI com Ênfase em Geoprocessamento](https://github.com/renatogcruz/data_science_in_arch/tree/main/Power_bi_com_enfase_em_geoprocessamento)
-
-Training to connect and prepare databases, create graphics and customized visual elements and create dynamic and interactive dashboards and reports.
+Curso oferecido por @meigarom (LinkedIn) @meigarom.datascience (Instagram). 
