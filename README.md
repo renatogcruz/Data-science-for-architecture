@@ -34,4 +34,8 @@ Training to connect and prepare databases, create graphics and customized visual
 
 # House Rocket
 
-Maximizando a receita da empre [House Rocket](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/House_Rocket), uma plataforma digital que tem como modelo de negócio, a compra e a venda de imóveis usando tecnologia.
+Maximizing the revenue of the company [House Rocket](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/House_Rocket), a digital platform whose business model is buying and selling of real estate using technology.
+
+# Gender and Origin
+
+[Analysis](https://github.com/renatogcruz/Data-science-for-architecture/tree/main/genero_origem) of gender and origin of teaching using a bibliographic database adopted in architecture and urbanism courses.
