@@ -45,4 +45,4 @@ Roteiro Sugerido para a Resolução:
 * O Ferramental da Solução
 * Use as ferramentas que você se sente mais confortável para desenvolver a solução. Você pode usar tanto Python quanto R e qualquer IDE de sua preferência Juypter Notebook, Spyder, VS Code, entre outros.
 
-Curso oferecido por @meigarom (LinkedIn) @meigarom.datascience (Instagram). 
+Curso oferecido por @meigarom disponível no [YouTube](https://www.youtube.com/playlist?list=PLZlkyCIi8bMprZgBsFopRQMG_Kj1IA1WG). 
