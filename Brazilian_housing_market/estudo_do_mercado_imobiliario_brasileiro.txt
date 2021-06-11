@@ -1,0 +1,5 @@
+WebScraping das páginas do Airbnb para comparação das características dos imóveis
+https://github.com/lucasanhenrique/airbnb
+
+Estudo do Mercado Imobiliário Brasileiro
+https://rpubs.com/michelarrudala/imoveis
