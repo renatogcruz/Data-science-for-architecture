@@ -3,3 +3,6 @@ https://github.com/lucasanhenrique/airbnb
 
 Estudo do Mercado Imobiliário Brasileiro
 https://rpubs.com/michelarrudala/imoveis
+
+Explorando o mercado de aluguel de condomínios com Web Scraping e EDA
+https://ichi.pro/pt/explorando-o-mercado-de-aluguel-de-condominios-com-web-scraping-e-eda-240047429721369
