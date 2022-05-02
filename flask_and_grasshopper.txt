@@ -1,0 +1,18 @@
+While we wait for RhinoCode in Grasshopper.....
+
+I had a chance to look into a live link between Grasshopper and a python script in Jupyter using Hops. Luckily I could copy-paste most of this example straight from RhinoCompute's Github. This kind of workflow can enable us to use the whole array of python packages on our data!
+
+Example:
+1) Open finite element model using BHoM and extract results
+2) Perform necessary spatial modification, filtering and linking operations in grasshopper
+3) Send data to python for visualisation using packages such as seaborn. Maybe we can use SciKit Learn to determine clusters and patterns in our data.
+
+Looking forward to expanding this little example to do something useful!
+
+The link seems to have a little bit of instability - the data is not sent to the app as consistently as I want it to. Anyone has experience with a similar link who can help me figure out why?
+
+Also, any ideas for how a workflow like this can be utilised?
+
+https://www.linkedin.com/feed/update/urn:li:activity:6926849186856349696/
+
+https://www.food4rhino.com/en/app/hops
